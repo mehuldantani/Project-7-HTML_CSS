@@ -1,0 +1,145 @@
+*{
+    font-family: Poppins;
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    padding:50px;
+    height: 20%;
+}
+.nav-items{
+    display: flex;
+    width: 33%;
+    justify-content: space-around;
+    margin-left: 17%;
+    margin-right: 17%;
+    font-size: 25px;
+}
+
+.intro-section{
+    height: 80%;
+    display: flex;
+}
+
+.left-section{
+    margin-left: 50px;
+    width: 55%;
+}
+
+.right-section{
+    width: 45%;
+}
+
+h3{
+    font-size: 37px;
+}
+
+img[alt~="circles"]{
+    margin-left: 10px;
+    width: 55px;
+}
+
+h1{
+    font-size: 60px;
+    letter-spacing: 2px;
+    font-family: Fredoka One;
+}
+
+img[alt~="plus"]{
+    margin-left: 10px;
+    border-radius: 50%;
+    margin-right: 15px;
+    padding: 5px;
+    width: 23px;
+    background-color: #fe5e35;
+}
+
+.sub-headlines{
+    margin: 75px;
+    font-size: 30px;
+    height: 100px;
+}
+
+.text{
+    color: #aaaaaa;
+    font-size: 14px;
+    width: 80%;
+}
+
+.action-btns{
+    display: flex;
+}
+
+.action-btn{
+    margin-top: 70px;
+    background-color: #fe5e35;
+    color: white;
+    border-color: #fe5e35;
+    border-style: solid;
+    margin-right: 50px;
+    width: 200px;
+    height: 58px;
+    font-size: 20px;
+    border-radius: 50px;
+}
+ 
+.headphone-div{
+    position: relative;
+}
+
+.discount {
+    position: absolute;
+    top: 220px;
+    width: 160px;
+    left: -45px;
+  }
+  
+  .discount-content {
+    position: absolute;
+    top: 240px;
+    left: -25px;
+    text-align: center;
+    color: #fff;
+  }
+
+  img[alt~="headphone"]{
+    width: 70%;
+    margin-top: -30px;
+  }
+
+  
+  .dots {
+    margin-top: -10px;
+    margin-left: -200px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .dot.yellow-dot {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #fbd104;
+    margin: 20px;
+  }
+  
+  .dot.tomato-dot {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #fe5e35;
+    margin: 20px;
+  }
+  
+  .dot.black-dot {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #000;
+    margin: 20px;
+  }
+
+  .nav-items :first-child{
+    color: #fe5e35;
+  }
